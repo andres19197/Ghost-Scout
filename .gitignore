@@ -1,0 +1,16 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Caché de Python y Streamlit
+__pycache__/
+*.pyc
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datos (Subiremos solo el procesado si pesa poco, los crudos pesados se quedan fuera)
+data/raw/
